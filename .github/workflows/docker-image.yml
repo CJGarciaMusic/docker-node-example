@@ -32,6 +32,6 @@ jobs:
 
         push: true
 
-        tags: ${{ secrets.DOCKERHUB_USERNAME }}/docker-node-test:latest
+        tags: ${{ secrets.DOCKERHUB_USERNAME }}/docker-node-test
         
         target: prod
